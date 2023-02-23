@@ -8,7 +8,7 @@ const Background = () => {
     <View
         style={{
             position: 'absolute',
-            backgroundColor: '#0EAAAA',
+            backgroundColor: '#4917ED',
             top: -250,
             width: 1000,
             height: 1200,
