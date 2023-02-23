@@ -23,7 +23,7 @@ const LoginScreen = ({navigation} : Props) => {
     console.log({email, password});
     Keyboard.dismiss();
     
-  }
+  };
 
   return (
     <>
