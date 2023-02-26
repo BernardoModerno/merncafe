@@ -1,19 +1,20 @@
-/* eslint-disable prettier/prettier */
 import { StyleSheet } from "react-native";
+
+
 
 export const loginStyles = StyleSheet.create({
     formContainer: {
         flex: 1,
         paddingHorizontal: 30,
-        justifyContent: 'center',
+        justifyContent:'center',
         height: 600,
-        marginBottom: 50,
+        marginBottom: 50
     },
     title: {
         color: 'white',
         fontSize: 30,
         fontWeight: 'bold',
-        marginTop: 20,
+        marginTop: 20
     },
     label: {
         marginTop: 25,
@@ -21,32 +22,32 @@ export const loginStyles = StyleSheet.create({
         fontWeight: 'bold',
     },
     inputField: {
-        color: 'white',
+        color:'white',
         fontSize: 20,
     },
     inputFieldIOS: {
         borderBottomColor: 'white',
         borderBottomWidth: 2,
-        paddingBottom: 4,
+        paddingBottom: 4
     },
     buttonContainer: {
         alignItems: 'center',
-        marginTop: 50,
+        marginTop: 50
     },
     button: {
         borderWidth: 2,
         borderColor: 'white',
         paddingHorizontal: 20,
         paddingVertical: 5,
-        borderRadius: 90,
+        borderRadius: 100
     },
     buttonText: {
         fontSize: 18,
-        color: 'white',
+        color: 'white'
     },
     newUserContainer: {
         alignItems: 'flex-end',
-        marginTop: 10,
+        marginTop: 10
     },
     buttonReturn: {
         position: 'absolute',
@@ -56,6 +57,6 @@ export const loginStyles = StyleSheet.create({
         borderColor: 'white',
         paddingHorizontal: 10,
         paddingVertical: 5,
-        borderRadius: 100,
-    },
+        borderRadius: 100
+    }
 });
