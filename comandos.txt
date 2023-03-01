@@ -8,3 +8,4 @@ npm install @react-navigation/drawer
 npm install @react-navigation/bottom-tabs
 npx pod-install
 npx react-native run-android
+yarn add @react-native-picker/picker
